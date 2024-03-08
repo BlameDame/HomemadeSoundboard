@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+  
+  <body onload="allKeys(lettersLower)">
+  <div class="setKeys">
+    <button onclick="gatherKeyInfo()" id="subbtn">Set Keys</button>
+    <h3 id="closebtn" onclick="closeSetKeys()">X</h3>
+    <h2>Set Keys</h2>
+<form id="form">
+
+</form>
+  </div>
+  <br>
+  <div class="settedKeys">
+    <h2>Setted Keys</h2>
+    <br>
+    <button id="showbtn" onclick="showSetKeys()">Add Key</button>
+    <br>
+  </div>
+    <div class="soundboard">
+      <h2>Soundboard</h2>
+      <br>
+      <button id="soundboard" onclick="setSoundboard()">Show Soundboard</button>
+    </div>
+  <script src="script.js"></script>
+    <script>
+      lettersLower = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q" ,"r", "s", "t", "u", "v", "w", "x", "y", "z"]
+
+      document.getElementById("soundboard").addEventListener("click", setSoundboard);
+
+      function allKeys(lettersLower) {
+
+        lettersLower.forEach(function(letter) {
+          document.getElementById("form").innerHTML +=
+            "<div class='key'><label for='key" + letter + "'>" + letter + "</label>" +
+            "<br />" +
+            "<input type='hidden' id='" + letter + "ID' name='" + letter + " ' value='" + letter + "'>" +
+            "<input type='text' id='Key" + letter + "name' name='Key" + letter + "name' placeholder='Key " + letter + " name' >" +
+            "<input type='file' id='Key" + letter + "file' name='Key" + letter + "file' accept='audio/*>'" + 
+            "<br></div>";
+        });
+      }
+    </script>
+
+
+
+</body>
+
+</html>

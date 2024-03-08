@@ -1,0 +1,255 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+button{
+  cursor: pointer;
+}
+
+input[type="file"]{
+  cursor: pointer;
+}
+
+.audio{
+  border: 1px solid black;
+  height: 5em;
+  width: 20em;
+  margin-top: 15px;
+  margin-left: 7px;
+}
+
+
+.setKeys{
+  display: ;
+  height: 26em;
+  width: 40em;
+  border: 1px solid black;
+  justify-content: center;
+  overflow: auto;
+  scrollbar-width: none;
+}
+
+.settedKeys{
+  border: 1px solid black;
+  height: 20em;
+  width: 40em;
+  overflow: auto;
+  scrollbar-width: none;
+}
+
+.soundboard{
+  margin-top: 10px;
+  border: 1px solid black;
+  height: 20em;
+  width: 40em;
+  overflow: auto;
+  scrollbar-width: none;
+  margin-bottom: 10px;
+}
+
+.key[a-z]{
+  border: 1px solid black;
+  height: 5em;
+  width: 20em;
+  margin-top: 15px;
+  margin-left: 7px;
+}
+
+.keya{
+    border: 1px solid black;
+    height: 5em;
+    width: 20em;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+.keyb{
+    border: 1px solid black;
+    height: 5em;
+    width: 20em;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+.keyc{
+    border: 1px solid black;
+    height: 5em;
+    width: 20em;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+.keyd{
+    border: 1px solid black;
+    height: 5em;
+    width: 20em;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+.keye{
+    border: 1px solid black;
+    height: 5em;
+    width: 20em;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+.keyf{
+    border: 1px solid black;
+    height: 5em;
+    width: 20em;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+.keyg{
+    border: 1px solid black;
+    height: 5em;
+    width: 20em;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+.keyh{
+    border: 1px solid black;
+    height: 5em;
+    width: 20em;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+.keyi{
+    border: 1px solid black;
+    height: 5em;
+    width: 20em;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+.keyj{
+    border: 1px solid black;
+    height: 5em;
+    width: 20em;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+.keyk{
+    border: 1px solid black;
+    height: 5em;
+    width: 20em;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+.keyl{
+    border: 1px solid black;
+    height: 5em;
+    width: 20em;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+.keym{
+    border: 1px solid black;
+    height: 5em;
+    width: 20em;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+.keyn{
+    border: 1px solid black;
+    height: 5em;
+    width: 20em;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+.keyo{
+    border: 1px solid black;
+    height: 5em;
+    width: 20em;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+.keyp{
+    border: 1px solid black;
+    height: 5em;
+    width: 20em;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+.keyq{
+    border: 1px solid black;
+    height: 5em;
+    width: 20em;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+.keyr{
+    border: 1px solid black;
+    height: 5em;
+    width: 20em;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+.keys{
+    border: 1px solid black;
+    height: 5em;
+    width: 20em;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+.keyt{
+    border: 1px solid black;
+    height: 5em;
+    width: 20em;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+.keyu{
+    border: 1px solid black;
+    height: 5em;
+    width: 20em;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+.keyv{
+    border: 1px solid black;
+    height: 5em;
+    width: 20em;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+.keyw{
+    border: 1px solid black;
+    height: 5em;
+    width: 20em;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+.keyx{
+    border: 1px solid black;
+    height: 5em;
+    width: 20em;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+.keyy{
+    border: 1px solid black;
+    height: 5em;
+    width: 20em;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+.keyz{
+    border: 1px solid black;
+    height: 5em;
+    width: 20em;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+
+label, input {
+  display: block;
+}
+
+
+h2{
+  text-align: center;
+}
+
+h3{
+  text-align: right;
+  margin-top: -2px;
+  cursor: pointer;
+}
